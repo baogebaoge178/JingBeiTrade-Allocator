@@ -16,7 +16,7 @@
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "Film and television works data",
     "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
-    "How do you plan to prepare the dataset": "",
+    "How do you plan to prepare the dataset": "Filecoin storage providers typically use tools such as Boost, Lotus, and Singularity to prepare and process data prior to onboarding it onto the blockchain.\nBoost handles efficient data ingestion and market transaction management, while Lotus manages storage deals and interacts with the Filecoin blockchain.\nFor large-scale or high-performance scenarios, Singularity can significantly accelerate the data sealing process.\nAfter data is divided into sectors, it undergoes initial verification via zero-knowledge proofs and must continuously submit PoSt (Proofs of Spacetime) to ensure ongoing storage integrity.\nFinally, sectors that pass all verification steps are submitted to the Filecoin network, completing the entire data storage workflow.\n",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "http://taishanschool.com/channels/5.html\nhttp://taishanschool.com/channels/6.html",
     "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
     "What is the expected retrieval frequency for this data": "Sporadic",
@@ -43,7 +43,7 @@
     "Active Request ID": "ac778726-cbec-42f2-b260-22c7f986d092",
     "On Chain Address": "f1mokx5ogircmhlbijlthsl2rzb4rhflkvzo77yuy",
     "Multisig Address": "false",
-    "edited": false
+    "edited": true
   },
   "Allocation Requests": [
     {
