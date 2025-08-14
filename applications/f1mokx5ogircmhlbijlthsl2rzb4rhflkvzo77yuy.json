@@ -35,11 +35,11 @@
     "Weekly Allocation": "800TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-08-14 10:37:27.153315142 UTC",
+    "State": "Granted",
+    "Validated At": "2025-08-14 10:39:10.799727414 UTC",
     "Validated By": "baogebaoge178",
     "Active": true,
-    "Updated At": "2025-08-14 10:37:27.153319774 UTC",
+    "Updated At": "2025-08-14 10:39:10.799722920 UTC",
     "Active Request ID": "2d2b4391-4787-43c0-9cd7-3e8439682ba4",
     "On Chain Address": "f1mokx5ogircmhlbijlthsl2rzb4rhflkvzo77yuy",
     "Multisig Address": "false",
@@ -67,9 +67,16 @@
       "Request Type": "Refill",
       "Created At": "2025-08-14 10:37:27.153324239 UTC",
       "Updated At": "2025-08-14 10:37:27.153325050 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "562949953421312B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "baogebaoge178",
+          "Signing Address": "f1cn6igxmavyw2jbxurgxwpoopbvc7wyiaf24wfda",
+          "Created At": "2025-08-14 10:39:08.396000000 UTC",
+          "Message CID": "bafy2bzacedxyc2toyyllplld2sizlhr32myltcu7eef54x3icrhgmaj5nijy4"
+        }
+      ]
     }
   ]
 }
